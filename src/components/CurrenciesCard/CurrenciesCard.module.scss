@@ -1,0 +1,44 @@
+.wrapper {
+  margin-top: 50px;
+  width: 300px;
+  background-color: #b5e7a0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  padding: 25px;
+}
+
+.results {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.refresh {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  &:not(.disabled):hover {
+    background-color: rgb(78, 98, 187);
+  }
+}
+
+.disabled {
+  background-color: rgb(129, 32, 15);
+}

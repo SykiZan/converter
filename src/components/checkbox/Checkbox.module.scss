@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #87bb89;
+  cursor: pointer;
+}
+
+.checked {
+  border-color: #00da09;
+}

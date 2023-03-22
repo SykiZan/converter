@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  height: 40px;
+}
+
+.input {
+  width: 200px;
+  height: 100%;
+  border-radius: 5px;
+  padding: 0 8px;
+  border: none;
+}
+
+.select {
+  width: 70px;
+  border-radius: 5px;
+  background-color: #fff;
+}

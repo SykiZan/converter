@@ -1,0 +1,51 @@
+.wrapper {
+  position: relative;
+
+  position: fixed;
+  inset: 0;
+  //   height: fit-content;
+  //   overflow: scroll;
+}
+.modal {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 25px 5px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.582);
+  backdrop-filter: blur(2px);
+}
+
+.checks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding-right: 15px;
+}
+
+.check-wrap {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
